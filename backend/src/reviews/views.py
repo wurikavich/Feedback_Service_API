@@ -1,4 +1,4 @@
-from django.db.models import Avg, Func
+from django.db.models import Avg
 from rest_framework import viewsets
 from rest_framework.generics import get_object_or_404
 
