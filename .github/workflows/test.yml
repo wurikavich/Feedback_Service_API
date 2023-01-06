@@ -31,6 +31,9 @@ jobs:
 
     - id: run_test
       name: Run flake8 and pytest
+      env:
+        SECRET_KEY: "${{ secrets.SECRET_KEY }}"
+        DEBUG: "${{ secrets.DEBUG }}"
       run: |
         python -m flake8
         cd backend
