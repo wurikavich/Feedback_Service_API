@@ -1,1 +1,1638 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2023-01-06T15:25:13.514Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "семейные", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2023-01-06T15:25:19.971Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "коммедия", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2023-01-06T15:26:15.887Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "новинки отечественного кино", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2023-01-06T15:26:41.628Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Чебурашка (2022)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2023-01-06T15:28:59.934Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "драмма", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2023-01-06T15:29:15.635Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "мелодрамма", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2023-01-06T15:29:24.485Z", "user": 1, "content_type": 9, "object_id": "5", "object_repr": "военный", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2023-01-06T15:29:30.317Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "история", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2023-01-06T15:31:10.516Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "популярное", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2023-01-06T15:31:21.227Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Форрест Гамп (1994)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2023-01-06T15:34:40.631Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Новогоднее настроение", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2023-01-06T15:34:43.224Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Один дома (1990)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2023-01-06T15:36:02.308Z", "user": 1, "content_type": 9, "object_id": "7", "object_repr": "мультфильм", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2023-01-06T15:36:09.002Z", "user": 1, "content_type": 9, "object_id": "8", "object_repr": "мюзекл", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2023-01-06T15:36:24.241Z", "user": 1, "content_type": 9, "object_id": "9", "object_repr": "фентази", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2023-01-06T15:36:48.995Z", "user": 1, "content_type": 11, "object_id": "4", "object_repr": "Холодное сердце (2013)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2023-01-06T15:40:38.226Z", "user": 1, "content_type": 6, "object_id": "2", "object_repr": "Murlyka", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2023-01-06T15:40:51.636Z", "user": 1, "content_type": 6, "object_id": "2", "object_repr": "Murlyka", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2023-01-06T15:41:18.391Z", "user": 1, "content_type": 10, "object_id": "1", "object_repr": "\"Murlyka\" добавил отзыв на \"Форрест Гамп (1994)\" с оценкой \"10\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2023-01-06T15:43:59.030Z", "user": 1, "content_type": 6, "object_id": "3", "object_repr": "Lerry", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2023-01-06T15:44:40.152Z", "user": 1, "content_type": 10, "object_id": "2", "object_repr": "\"Lerry\" добавил отзыв на \"Форрест Гамп (1994)\" с оценкой \"7\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2023-01-06T15:47:09.486Z", "user": 1, "content_type": 6, "object_id": "4", "object_repr": "Vitaliyyy", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2023-01-06T15:47:27.276Z", "user": 1, "content_type": 6, "object_id": "4", "object_repr": "Vitaliyyy", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2023-01-06T15:48:05.991Z", "user": 1, "content_type": 10, "object_id": "3", "object_repr": "\"Vitaliyyy\" добавил отзыв на \"Форрест Гамп (1994)\" с оценкой \"5\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2023-01-06T15:50:23.001Z", "user": 1, "content_type": 10, "object_id": "4", "object_repr": "\"Vitaliyyy\" добавил отзыв на \"Чебурашка (2022)\" с оценкой \"9\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2023-01-06T15:51:51.857Z", "user": 1, "content_type": 6, "object_id": "5", "object_repr": "BlastedShadow", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2023-01-06T15:52:10.393Z", "user": 1, "content_type": 6, "object_id": "5", "object_repr": "BlastedShadow", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2023-01-06T15:53:16.002Z", "user": 1, "content_type": 10, "object_id": "5", "object_repr": "\"BlastedShadow\" добавил отзыв на \"Чебурашка (2022)\" с оценкой \"7\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2023-01-06T15:54:27.380Z", "user": 1, "content_type": 6, "object_id": "6", "object_repr": "Antikinohater", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2023-01-06T15:55:13.481Z", "user": 1, "content_type": 10, "object_id": "6", "object_repr": "\"Antikinohater\" добавил отзыв на \"Чебурашка (2022)\" с оценкой \"3\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2023-01-06T15:55:47.428Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Чебурашка (2022)", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2023-01-06T15:58:27.569Z", "user": 1, "content_type": 6, "object_id": "7", "object_repr": "Marysya", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2023-01-06T15:58:45.805Z", "user": 1, "content_type": 10, "object_id": "7", "object_repr": "\"Marysya\" добавил отзыв на \"Один дома (1990)\" с оценкой \"10\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2023-01-06T16:00:24.249Z", "user": 1, "content_type": 6, "object_id": "8", "object_repr": "bob", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2023-01-06T16:00:45.941Z", "user": 1, "content_type": 10, "object_id": "8", "object_repr": "\"bob\" добавил отзыв на \"Один дома (1990)\" с оценкой \"8\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2023-01-06T16:01:40.472Z", "user": 1, "content_type": 10, "object_id": "9", "object_repr": "\"Lerry\" добавил отзыв на \"Холодное сердце (2013)\" с оценкой \"4\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2023-01-06T16:02:21.351Z", "user": 1, "content_type": 10, "object_id": "10", "object_repr": "\"Antikinohater\" добавил отзыв на \"Холодное сердце (2013)\" с оценкой \"3\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2023-01-06T16:02:49.851Z", "user": 1, "content_type": 10, "object_id": "11", "object_repr": "\"Marysya\" добавил отзыв на \"Холодное сердце (2013)\" с оценкой \"10\".", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2023-01-06T16:03:22.144Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "новогоднее настроение", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2023-01-06T16:03:35.852Z", "user": 1, "content_type": 9, "object_id": "8", "object_repr": "мюзикл", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2023-01-06T16:04:53.484Z", "user": 1, "content_type": 6, "object_id": "1", "object_repr": "admin", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"\\u0420\\u043e\\u043b\\u044c \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2023-01-06T16:06:34.290Z", "user": 1, "content_type": 6, "object_id": "9", "object_repr": "review_admin", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2023-01-06T16:06:47.656Z", "user": 1, "content_type": 6, "object_id": "9", "object_repr": "review_admin", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2023-01-06T16:08:57.998Z", "user": 1, "content_type": 6, "object_id": "10", "object_repr": "comment_admin", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2023-01-06T16:12:55.000Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "\"Lerry\" прокомментировал отзыв c id 11", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2023-01-06T16:15:28.515Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "\"Marysya\" прокомментировал отзыв c id 6", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2023-01-06T16:17:17.250Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "\"BlastedShadow\" прокомментировал отзыв c id 1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2023-01-06T16:18:42.446Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "\"Murlyka\" прокомментировал отзыв c id 1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 4, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view content type", "content_type": 4, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_type": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change session", "content_type": 5, "codename": "change_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete session", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "codename": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add Пользователь", "content_type": 6, "codename": "add_user"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change Пользователь", "content_type": 6, "codename": "change_user"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete Пользователь", "content_type": 6, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view Пользователь", "content_type": 6, "codename": "view_user"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add Категория", "content_type": 7, "codename": "add_category"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change Категория", "content_type": 7, "codename": "change_category"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete Категория", "content_type": 7, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view Категория", "content_type": 7, "codename": "view_category"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add Комментарий к отзыву", "content_type": 8, "codename": "add_comment"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change Комментарий к отзыву", "content_type": 8, "codename": "change_comment"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete Комментарий к отзыву", "content_type": 8, "codename": "delete_comment"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view Комментарий к отзыву", "content_type": 8, "codename": "view_comment"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add Жанр", "content_type": 9, "codename": "add_genre"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change Жанр", "content_type": 9, "codename": "change_genre"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete Жанр", "content_type": 9, "codename": "delete_genre"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view Жанр", "content_type": 9, "codename": "view_genre"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add Отзыв", "content_type": 10, "codename": "add_review"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change Отзыв", "content_type": 10, "codename": "change_review"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete Отзыв", "content_type": 10, "codename": "delete_review"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view Отзыв", "content_type": 10, "codename": "view_review"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add Произведение", "content_type": 11, "codename": "add_title"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change Произведение", "content_type": 11, "codename": "change_title"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete Произведение", "content_type": 11, "codename": "delete_title"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view Произведение", "content_type": 11, "codename": "view_title"}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "users", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "reviews", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "reviews", "model": "comment"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "reviews", "model": "genre"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "reviews", "model": "review"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "reviews", "model": "title"}}, {"model": "sessions.session", "pk": "z1r8ghde4nocprzn877ln5qvd7qhlcj8", "fields": {"session_data": ".eJxVjEsOwjAMBe-SNYocnCY1S_Y9Q2UnDi2gVOpnhbg7VOoCtm9m3sv0vK1Dvy0692M2F-PM6XcTTg-tO8h3rrfJpqmu8yh2V-xBF9tNWZ_Xw_07GHgZvjW5FkkLI0FRjmegWGISptAW9D6nLILZN8wKVEjFYYMQHaAECKE17w_xXDfb:1pDoLN:H7spsC4SFv95W1dOXjbglvHvyWdPVPFUNnYV6v0vpI0", "expire_date": "2023-01-20T15:09:17.891Z"}}, {"model": "users.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$260000$wvmLN8KvNn0OBvlrAsb9Ci$IQD7m/EfK+WUM6dYmK8M8MOmskILr+HL5u9B3fgf7co=", "last_login": "2023-01-06T15:09:17Z", "is_superuser": true, "first_name": "Alexander", "last_name": "Getmanov", "is_staff": true, "is_active": true, "date_joined": "2023-01-06T15:06:46Z", "username": "admin", "email": "admin@mail.ru", "role": "admin", "bio": "", "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$260000$14xHAIJh5KyZR3QUrTdk4k$ASniR4Gg3dc4hIOyB85yaS3OWGr9MXcC7iqjvMK7TeY=", "last_login": null, "is_superuser": false, "first_name": "Анастасия", "last_name": "Косичкина", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T15:40:38Z", "username": "Murlyka", "email": "user@mail.ru", "role": "user", "bio": "«'Я - просто женщина, которой повезло'.\r\nЭта фраза Одри Хепберн немножко и обо мне...»", "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 3, "fields": {"password": "pbkdf2_sha256$260000$Ea17IycnLsvXv8D3WnXMOK$BnhLU3kusqje9Y9QZWFV5rYytI0ebo5x3Z2C9qPTOBM=", "last_login": null, "is_superuser": false, "first_name": "Lera", "last_name": "Sergeeva", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T15:43:58.978Z", "username": "Lerry", "email": "user2@mail.ru", "role": "user", "bio": null, "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 4, "fields": {"password": "pbkdf2_sha256$260000$0lxAes4sOQpXr7WNQx6wYk$hSC7XpM/wLXYr1kk58aUhxNMIJjSJWKaNq+UqpAZfoQ=", "last_login": null, "is_superuser": false, "first_name": "Виталий", "last_name": "Смирнов", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T15:47:09Z", "username": "Vitaliyyy", "email": "user3@mail.ru", "role": "user", "bio": "«Вполне себе обычный парень, который хочет осуществить свою мечту... и еще я просто нереальный киноман!!!»", "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$260000$PEaUxc18xvkcPhaaAZKFkk$pJFpH2iU9LVHMjEnLb3k3zxUjYKaoVdw82Pnid3fEbE=", "last_login": null, "is_superuser": false, "first_name": "Blasted", "last_name": "Shadow", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T15:51:51Z", "username": "BlastedShadow", "email": "user4@mail.ru", "role": "user", "bio": "«Благословенье не придёт, пока ребёнок не поймёт, что надо быть как все»", "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 6, "fields": {"password": "pbkdf2_sha256$260000$k2p09hmwC0mTMCw5rMr2Tq$omySR1rXY7N3HwELfmqOQoXePgFp/nYsJfhYEBrSqXk=", "last_login": null, "is_superuser": false, "first_name": "Пётр", "last_name": "Родионов", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T15:54:27.326Z", "username": "Antikinohater", "email": "user5@mail.ru", "role": "user", "bio": null, "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 7, "fields": {"password": "pbkdf2_sha256$260000$iqYEQEuqtzxsTrpCiIF2sv$NMHHwPZW/jr79VH+Tu8vfUKQR3cGOcebJ/1RqbLvP+4=", "last_login": null, "is_superuser": false, "first_name": "Марина", "last_name": "Колесникова", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T15:58:27.516Z", "username": "Marysya", "email": "user6@mail.ru", "role": "user", "bio": null, "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 8, "fields": {"password": "pbkdf2_sha256$260000$Nig88PBDWe61NwTToWYyUk$X4rDObI309sLzhyFjgVSTfEtFFxOUCAIpVHauzpwe1E=", "last_login": null, "is_superuser": false, "first_name": "Алмас", "last_name": "Ахматов", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T16:00:24.195Z", "username": "bob", "email": "user7@mail.ru", "role": "user", "bio": null, "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 9, "fields": {"password": "pbkdf2_sha256$260000$WrRqVOSWY3nwUQHAxdnyeK$nnxFfgUldkVMXypCS9/frO9bx+gy0vyqxL2D/wyRCQM=", "last_login": null, "is_superuser": false, "first_name": "Модератор", "last_name": "Рецензий", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T16:06:34Z", "username": "review_admin", "email": "moderator@mail.ru", "role": "moderator", "bio": "", "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 10, "fields": {"password": "pbkdf2_sha256$260000$9mBfG8HgfCl2LCJL1D21VR$dvlhwC1Yx80AGcvBf1iXE+F/u+nbDVAiPEu4r54m8/4=", "last_login": null, "is_superuser": false, "first_name": "Модератор", "last_name": "Комментариев к отзывам", "is_staff": false, "is_active": true, "date_joined": "2023-01-06T16:08:57.946Z", "username": "comment_admin", "email": "moderator2@mail.ru", "role": "moderator", "bio": null, "groups": [], "user_permissions": []}}, {"model": "reviews.category", "pk": 1, "fields": {"name": "новинки отечественного кино", "slug": "novinki-otechestvennogo-kino"}}, {"model": "reviews.category", "pk": 2, "fields": {"name": "популярное", "slug": "populyarnoe"}}, {"model": "reviews.category", "pk": 3, "fields": {"name": "новогоднее настроение", "slug": "novogodnee-nastroenie"}}, {"model": "reviews.genre", "pk": 1, "fields": {"name": "семейные", "slug": "semejnye"}}, {"model": "reviews.genre", "pk": 2, "fields": {"name": "коммедия", "slug": "kommediya"}}, {"model": "reviews.genre", "pk": 3, "fields": {"name": "драмма", "slug": "dramma"}}, {"model": "reviews.genre", "pk": 4, "fields": {"name": "мелодрамма", "slug": "melodramma"}}, {"model": "reviews.genre", "pk": 5, "fields": {"name": "военный", "slug": "voennyj"}}, {"model": "reviews.genre", "pk": 6, "fields": {"name": "история", "slug": "istoriya"}}, {"model": "reviews.genre", "pk": 7, "fields": {"name": "мультфильм", "slug": "multfilm"}}, {"model": "reviews.genre", "pk": 8, "fields": {"name": "мюзикл", "slug": "myuzekl"}}, {"model": "reviews.genre", "pk": 9, "fields": {"name": "фентази", "slug": "fentazi"}}, {"model": "reviews.title", "pk": 1, "fields": {"name": "Чебурашка (2022)", "year": 2022, "description": "Иногда, чтобы вернуть солнце и улыбки в мир взрослых, нужен один маленький ушастый герой. Мохнатого непоседливого зверька из далекой апельсиновой страны ждут удивительные приключения в тихом приморском городке, где ему предстоит найти себе имя, друзей и дом.\r\n\r\nПомогать — и мешать! — ему в этом будут нелюдимый старик-садовник, странная тетя-модница и ее капризная внучка, мальчик, который никак не начнет говорить, и его мама, которой приходится несладко, хотя она и варит самый вкусный на свете шоколад. И многие-многие другие, в чью жизнь вместе с ароматом апельсинов вот-вот ворвутся волшебство и приключения.", "category": 1, "genre": [2, 1]}}, {"model": "reviews.title", "pk": 2, "fields": {"name": "Форрест Гамп (1994)", "year": 1994, "description": "Сидя на автобусной остановке, Форрест Гамп — не очень умный, но добрый и открытый парень — рассказывает случайным встречным историю своей необыкновенной жизни.\r\n\r\nС самого малолетства парень страдал от заболевания ног, соседские мальчишки дразнили его, но в один прекрасный день Форрест открыл в себе невероятные способности к бегу. Подруга детства Дженни всегда его поддерживала и защищала, но вскоре дороги их разошлись.", "category": 2, "genre": [5, 3, 6, 2, 4]}}, {"model": "reviews.title", "pk": 3, "fields": {"name": "Один дома (1990)", "year": 1990, "description": "Американское семейство отправляется из Чикаго в Европу, но в спешке сборов бестолковые родители забывают дома... одного из своих детей. Юное создание, однако, не теряется и демонстрирует чудеса изобретательности. И когда в дом залезают грабители, им приходится не раз пожалеть о встрече с милым крошкой.", "category": 3, "genre": [2, 1]}}, {"model": "reviews.title", "pk": 4, "fields": {"name": "Холодное сердце (2013)", "year": 2013, "description": "Когда сбывается древнее предсказание, и королевство погружается в объятия вечной зимы, трое бесстрашных героев - принцесса Анна, отважный Кристофф и его верный олень Свен - отправляются в горы, чтобы найти сестру Анны, Эльзу, которая может снять со страны леденящее заклятие. По пути их ждет множество увлекательных сюрпризов и захватывающих приключений: встреча с мистическими троллями, знакомство с очаровательным снеговиком по имени Олаф, горные вершины покруче Эвереста и магия в каждой снежинке. Анне и Кристоффу предстоит сплотиться и противостоять могучей стихии, чтобы спасти королевство и тех, кто им дорог.", "category": 3, "genre": [2, 4, 7, 8, 1, 9]}}, {"model": "reviews.review", "pk": 1, "fields": {"author": 2, "title": 2, "text": "Я воспринимаю этот фильм, как своего рода индикатор людских душ. Задаешь человеку вопрос 'А как тебе 'Форрест...?' и по ответу судишь,что это за человек. Если он говорит, что не видел,- это не беда, дам посмотреть. А если говорит, пожимая плечами: 'Да-а так, фигня про одного придурка...' или что-то в этом роде, то значит гниловатый человек попался. А если человек говорит, что это лучший фильм из тех, что он видел, значит, этот человек дышит тем же воздухом, что и ты, живет на одной с тобой волне, и у него в сердце живет Любовь! - К людям, к жизни, к этому миру. Иногда думаю, как было бы здорово, если бы мы все, повзрослев, не теряли того наивного доброго открытого Фореста, который живет в душе каждого ребенка! И насколько этот мир был бы лучше...\r\n\r\nА момент, который запал в душу: это когда Форест приносит на могилку своей любимой письмо,которое написал их сынишка, и говорит, что он не читал его, потому что чужие письма читать нельзя... Это настолько просто, казалось бы, быть порядочным человеком! И какая это редкость в наше время, когда считается нормой,что любимые люди шарят в мобильниках своих половинок, выискивая чужие смс-ки, когда вскрывается чужая почта. Как это все печально. Наболело, знаете ли...\r\n\r\n10 из 10.", "score": 10, "pub_date": "2023-01-06T15:41:18.390Z"}}, {"model": "reviews.review", "pk": 2, "fields": {"author": 3, "title": 2, "text": "Я первый раз смотрела этот фильм на очень плохо показывающем канале и мне приходилось прислушиваться изо всех сил. И я прислушивалась.\r\n\r\nГлядя на Форреста, на его жизнь, ясно видно, как все мы, с нашими каждодневными проблемами, мелочны, как мы размениваем свою жизнь на пустые разговоры, желания и действия, отказываясь, именно неосознанно отказываясь замечать простое и прекрасное.\r\n\r\nВсе отходит куда-то далеко-далеко и остается слабоумный по нашим понятиям человек, живущий в своем мире и который видит и замечает во всем только хорошее.\r\n\r\nЭтот фильм стал моим любимым фильмом, я смотрю его и переношусь туда, ведь так сложно в нашем мире с нашими предрассудками жить так, как Форрест.", "score": 7, "pub_date": "2023-01-06T15:44:40.151Z"}}, {"model": "reviews.review", "pk": 3, "fields": {"author": 4, "title": 2, "text": "Невероятно добрый, трагичный, местами смешной, местами страшный. Фильм о неполноценном человеке, с доброй и открытой душой, который просто хочет жить.\r\n\r\nФильм о жестокости, страданиях, о любви и ненависти, о дружбе, и простых человеческих ценностях. Форрест Гамп - показывает всем, что неважно здоровый ты человек или больной, инвалид или нет. Ведь все люди абсолютно равны между собой, надо только бороться. Только не все это понимают. И только Форрест Гамп не обращает внимания на издевательства. Он просто живет и любит, он просто ценит то, что у него есть. И все люди которые его окружают, тоже в конце концов начинают ценить жизнь такой какой она есть.\r\n\r\nИгра Тома Хэнкса восхитительна! Так передать образ слабоумного человека! Величайший актер современности!\r\n\r\nОценки?... зачем, фразой Форреста 'может я и глупый, но я умею любить', была поставлена оценка, о шедевре, который не забудут никогда.", "score": 5, "pub_date": "2023-01-06T15:48:05.990Z"}}, {"model": "reviews.review", "pk": 4, "fields": {"author": 4, "title": 1, "text": "Не детский Чебурашка\r\nКонечно же, когда мои дети увидели рекламу данного фильма, то захотели на него пойти. Чебурашка же, любимый детский герой. И вот 2 января мы и пошли в кино.\r\n\r\nЧто я могу сказать?\r\n\r\nМне лично этот фильм показался не совсем детским. Мы пошли в кино с 7леткой и 4леткой. 4летке, которая больше всего рвалась на него, было порой скучновато.\r\n\r\nДа и даже не уверена, что 7летка понял всю проблематику.\r\n\r\nА ведь проблематика поднимается совсем не детская и совсем не простая. Перипетии судьбы человеческой, поступки, которые когда-то казались лучшим решением, а оказались... Не понять таких проблем в 6 лет. В общем, фильм о том, как трудно и сложно быть человеком, как сказал Чебурашка...\r\n\r\nНо для меня - взрослого человека - фильм запал в сердце. Были моменты и поулыбаться, и прослезиться от грусти и умиления.\r\n\r\nОтдельное браво костюмерам Елены Яковлевой! Ее образы просто шикарны, глаз радовался.\r\n\r\nНа удивление (мое личное), неплохо смотрелись и играли Полина Максимова и Сергей Лавыгин. Хотя от них как раз особо ничего не ждала, зная как они обычно играют.\r\n\r\nСергей Гармаш не разочаровал, прекрасно справился с ролью.\r\n\r\nОт Федора Добронравова хотелось побольше получить. Но роль у него тут маленькая и довольно невзрачная.\r\n\r\nИз минусов можно отметить разве что графику фильма. Чебурашка, конечно, получился своеобразным. И сцены, когда люди взаимодействовали с Чебурашкой получились не очень. Не сравнить с тем же Соником, с которым этот фильм сравнивают по стилям.\r\n\r\nПо итогу, крепкое хорошее кино для семейного просмотра с детьми 8+.", "score": 9, "pub_date": "2023-01-06T15:50:23.000Z"}}, {"model": "reviews.review", "pk": 5, "fields": {"author": 5, "title": 1, "text": "Радуется сердце от перенасыщенной цветогаммы картинки (если не считать вид коморки Гены изнутри). От маленького города, с его цветами, маленькими забегаловками. Ощущение, будто Иван Лебедев оказался внутри сочного апельсина. Суровый взгляд Гены и остальные крупные планы героев впечатаются в память зрителя.\r\n\r\nВпрочем, как и музыка Ивана Канаева, которая прекрасно дополняет картину. Но, больше душевной настрой создаёт разбирающая душу надвое песня узбекской поп-певицы\r\n\r\nВпечатления: смешанное чувство возникнет у многих, как относится к создателям, которые поправ наше детство, вдруг решили так поступить. Кулаком по столу или разбить окно? Не стоит обвинять людей, старавшихся сделать такой запоздалый на день подарок. Как на день рождения. Но у нас, сейчас пока, новый год наступил. Поэтому отнесусь с уважением к проделанной работе Дьяченко и его команде. Прежде всего нижайший поклон Гармашу.\r\n\r\nА, если что-то не нравится, закидайте апельсинами. Я их люблю. В этом, мы с Чебурашкой похожи.", "score": 7, "pub_date": "2023-01-06T15:53:16.001Z"}}, {"model": "reviews.review", "pk": 6, "fields": {"author": 6, "title": 1, "text": "Самое грустное, что кино могло бы получиться хорошим, если бы его не назвали 'Чебурашка'. У меня на глазах незнакомые мне люди с издевкой потоптались по моим любимым персонажам детства. Ну вот зачем это делать? Создайте новую историю с новыми запоминающимися персонажами, хорошей драмой и логикой. Но я понимаю, что проще всего паразитировать на всем готовеньком. Зал, кстати, аплодировал в самом конце. Я такое видел в своей жизни всего раза 4.\r\n\r\nКак поет одна известная группа:\r\n\r\n'Кто-то из нас двоих\r\nТочно сошел с ума!\r\nОсталось лишь определить\r\nВесь мир или я...' - ©\r\n\r\n3 из 10", "score": 3, "pub_date": "2023-01-06T15:55:13.481Z"}}, {"model": "reviews.review", "pk": 7, "fields": {"author": 7, "title": 3, "text": "Сколько я помню свои Новый год, столько я и смотрю эту потрясающую рождественскую комедию. Каждый раз, когда смотрю, хотя и знаю уже все шутки наперед, а все равно смешно. Этот фильм никогда на перестанет меня веселить. Этот милый белобрысый парнишка Кевин, такой симпатяга, жаль, что Макколей Калкин не стал супер звездой, но 'Один дома' - культовый фильм.", "score": 10, "pub_date": "2023-01-06T15:58:45.804Z"}}, {"model": "reviews.review", "pk": 8, "fields": {"author": 8, "title": 3, "text": "Рождественское чудо\r\nНаверное, я выбрал не очень подходящий момент для очередного пересмотра этой знаменитой комедии, ставшей для американцев рождественским фильмом №1, и, как наша 'Ирония судьбы', одним из 'народных фильмов', которые становятся ежегодным символом праздника, его постоянным атрибутом и необходимой частью. До игнорируемого мною Рождества и до Нового года, на который, к слову сказать, лучше всего и идет 'Один дома', как листик петрушки - к салату Оливье, - еще очень далеко. На улице теплынь, новогодние гирлянды с витрин магазинов (о, чудо!) уже убраны, искусственные ёлки спрятаны в кладовки, а настоящие ждут своей благородной смерти в лесу, на улице все больше коротких юбок и почти не встретишь шапок, варежек и шуб....А я сижу дома с чашкой горячего кофе, забыв про теплый весенний вечер, и чувствую, что вот, еще пара часов, и заведет по телевизору свою новогоднюю шарманку президент, а потом начнут сотрясать воздух пошлостями, глупостями и банальностями отечественные юмористы, воспевая наступивший Новый год.", "score": 8, "pub_date": "2023-01-06T16:00:45.940Z"}}, {"model": "reviews.review", "pk": 9, "fields": {"author": 3, "title": 4, "text": "Что это было?\r\nЧестно скажу, посмотрев данный фильм я был восхищен тем, чего Дисней добился в области анимации и графики, мне понравилось звуковое сопровождение (если давать оценку композитору), мне понравился юмор. Но вот сюжет. Я не понимал всё. Я прочитал интервью с режиссёрами фильма об их задумки и заходя в кинотеатр думал, что увижу историю о двух сестрах. Но красивая картинка создает иллюзию, скрывая суть. Я читал отзывы людей, я смотрел видео, посвященные фильму на одном популярном файлообменнике. Меня не покидала одна мысль, но случайно найдя на том же файлообменнике видео американца, где он подверг критическому анализу сюжет, то сомнений не осталось. Предлагаю задуматься над образом Эльзы.", "score": 4, "pub_date": "2023-01-06T16:01:40.471Z"}}, {"model": "reviews.review", "pk": 10, "fields": {"author": 6, "title": 4, "text": "Не спи – замерзнешь!\r\nКто не любит «Disney»? «Disney» любят все! Ну или, во всяком случае, большинство. Не одно поколение выросло на их замечательных, ярких и выразительных мультфильмах. Одним из козырей студии являются полнометражные анимационные мюзиклы, которыми они радуют зрителя еще с 1930-х годов. Однако в делах сверхталантливой студии на рубеже XX и XXI веков стал наблюдаться определенный упадок, а зритель стал обращать взор на продукцию новоявленных анимационных студий, таких как «Pixar» и «Dreamworks». С первой диснеевцы уже давно наладили плодотворное сотрудничество, но вот возродить в полной мере именно СВОЮ фирменную полнометражную анимацию на мой взгляд так и не смогли. Наилучшей попыткой вернуться к корням была «Принцесса и лягушка»(2009), имевшая все основные черты характерные для диснеевской классики и отличавшаяся весьма неплохим исполнением, но собравшая не так много как хотелось бы, да и к тому же обидно упустившая награду на главной американской киноцеремонии. В «Disney» не утратили пыла и твердо стояли на том, что уж следующий их полноценный мультмюзикл однозначно и кассу сорвет, и «Оскар» возьмет. Или одно из двух.", "score": 3, "pub_date": "2023-01-06T16:02:21.350Z"}}, {"model": "reviews.review", "pk": 11, "fields": {"author": 7, "title": 4, "text": "Настоящие чувства смогут растопить лед...\r\nДавно я ждал наступления этого торжественного момента и вот теперь я с гордостью могу сказать: 'Ребята, это было нереально круто!' Наконец-то, спустя довольно большой промежуток времени, появился на свет мультфильм, заставивший меня сопереживать главным героям от первой и до последней секунды. 'Холодное сердце' - удивительное творение, в котором классические традиции студии 'Walt Disney' сочетаются с новыми приятными добавками. К примеру, 3D-эффект пришелся здесь очень кстати, а кропотливая работа над анимацией принесла колоссальный успех. Кроме того, хотелось бы отметить оригинальных персонажей, которые живут в королевстве Эренделл и близлежащих окрестностях. Все они получились веселыми и смешными, как того и требовала концепция мультика.", "score": 10, "pub_date": "2023-01-06T16:02:49.850Z"}}, {"model": "reviews.comment", "pk": 1, "fields": {"author": 3, "review": 11, "text": "Мне не очень понравился. Я поставила 4 и 10.", "pub_date": "2023-01-06T16:12:54.999Z"}}, {"model": "reviews.comment", "pk": 2, "fields": {"author": 7, "review": 6, "text": "Несогласна с отзывом! Фильм хорош!", "pub_date": "2023-01-06T16:15:28.514Z"}}, {"model": "reviews.comment", "pk": 3, "fields": {"author": 5, "review": 1, "text": "Фильм шикарный но на 10!", "pub_date": "2023-01-06T16:17:17.249Z"}}, {"model": "reviews.comment", "pk": 4, "fields": {"author": 2, "review": 1, "text": "BlastedShadow, мне очень понравился)", "pub_date": "2023-01-06T16:18:42.445Z"}}]
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-01-06T15:25:13.514Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "семейные",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-01-06T15:25:19.971Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "коммедия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-01-06T15:26:15.887Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "новинки отечественного кино",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-01-06T15:26:41.628Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Чебурашка (2022)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-01-06T15:28:59.934Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "драмма",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-01-06T15:29:15.635Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "мелодрамма",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-01-06T15:29:24.485Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "военный",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-01-06T15:29:30.317Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "история",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-01-06T15:31:10.516Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "популярное",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-01-06T15:31:21.227Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Форрест Гамп (1994)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-01-06T15:34:40.631Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Новогоднее настроение",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-01-06T15:34:43.224Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Один дома (1990)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-01-06T15:36:02.308Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "мультфильм",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-01-06T15:36:09.002Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "мюзекл",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-01-06T15:36:24.241Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "фентази",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-01-06T15:36:48.995Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Холодное сердце (2013)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-01-06T15:40:38.226Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Murlyka",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-01-06T15:40:51.636Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Murlyka",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-01-06T15:41:18.391Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "\"Murlyka\" добавил отзыв на \"Форрест Гамп (1994)\" с оценкой \"10\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-01-06T15:43:59.030Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Lerry",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-01-06T15:44:40.152Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "\"Lerry\" добавил отзыв на \"Форрест Гамп (1994)\" с оценкой \"7\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-01-06T15:47:09.486Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Vitaliyyy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-01-06T15:47:27.276Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Vitaliyyy",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-01-06T15:48:05.991Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "\"Vitaliyyy\" добавил отзыв на \"Форрест Гамп (1994)\" с оценкой \"5\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-01-06T15:50:23.001Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "\"Vitaliyyy\" добавил отзыв на \"Чебурашка (2022)\" с оценкой \"9\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-01-06T15:51:51.857Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "BlastedShadow",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-01-06T15:52:10.393Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "BlastedShadow",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u0438\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-01-06T15:53:16.002Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "\"BlastedShadow\" добавил отзыв на \"Чебурашка (2022)\" с оценкой \"7\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-01-06T15:54:27.380Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "Antikinohater",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-01-06T15:55:13.481Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "\"Antikinohater\" добавил отзыв на \"Чебурашка (2022)\" с оценкой \"3\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-01-06T15:55:47.428Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Чебурашка (2022)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-01-06T15:58:27.569Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "7",
+      "object_repr": "Marysya",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-01-06T15:58:45.805Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "\"Marysya\" добавил отзыв на \"Один дома (1990)\" с оценкой \"10\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-01-06T16:00:24.249Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "bob",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-01-06T16:00:45.941Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "\"bob\" добавил отзыв на \"Один дома (1990)\" с оценкой \"8\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-01-06T16:01:40.472Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "\"Lerry\" добавил отзыв на \"Холодное сердце (2013)\" с оценкой \"4\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-01-06T16:02:21.351Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "\"Antikinohater\" добавил отзыв на \"Холодное сердце (2013)\" с оценкой \"3\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-01-06T16:02:49.851Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "11",
+      "object_repr": "\"Marysya\" добавил отзыв на \"Холодное сердце (2013)\" с оценкой \"10\".",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-01-06T16:03:22.144Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "новогоднее настроение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-01-06T16:03:35.852Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "мюзикл",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-01-06T16:04:53.484Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "admin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"\\u0420\\u043e\\u043b\\u044c \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-01-06T16:06:34.290Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "review_admin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-01-06T16:06:47.656Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "review_admin",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-01-06T16:08:57.998Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "10",
+      "object_repr": "comment_admin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-01-06T16:12:55.000Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\"Lerry\" прокомментировал отзыв c id 11",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-01-06T16:15:28.515Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "\"Marysya\" прокомментировал отзыв c id 6",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-01-06T16:17:17.250Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "\"BlastedShadow\" прокомментировал отзыв c id 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-01-06T16:18:42.446Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "\"Murlyka\" прокомментировал отзыв c id 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Пользователь",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Пользователь",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Пользователь",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Пользователь",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Категория",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Категория",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Категория",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Категория",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Комментарий к отзыву",
+      "content_type": 8,
+      "codename": "add_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Комментарий к отзыву",
+      "content_type": 8,
+      "codename": "change_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Комментарий к отзыву",
+      "content_type": 8,
+      "codename": "delete_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Комментарий к отзыву",
+      "content_type": 8,
+      "codename": "view_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Жанр",
+      "content_type": 9,
+      "codename": "add_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Жанр",
+      "content_type": 9,
+      "codename": "change_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Жанр",
+      "content_type": 9,
+      "codename": "delete_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Жанр",
+      "content_type": 9,
+      "codename": "view_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Отзыв",
+      "content_type": 10,
+      "codename": "add_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Отзыв",
+      "content_type": 10,
+      "codename": "change_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Отзыв",
+      "content_type": 10,
+      "codename": "delete_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Отзыв",
+      "content_type": 10,
+      "codename": "view_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Произведение",
+      "content_type": 11,
+      "codename": "add_title"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Произведение",
+      "content_type": 11,
+      "codename": "change_title"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Произведение",
+      "content_type": 11,
+      "codename": "delete_title"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Произведение",
+      "content_type": 11,
+      "codename": "view_title"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "reviews",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "reviews",
+      "model": "comment"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "reviews",
+      "model": "genre"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "reviews",
+      "model": "review"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "reviews",
+      "model": "title"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "z1r8ghde4nocprzn877ln5qvd7qhlcj8",
+    "fields": {
+      "session_data": ".eJxVjEsOwjAMBe-SNYocnCY1S_Y9Q2UnDi2gVOpnhbg7VOoCtm9m3sv0vK1Dvy0692M2F-PM6XcTTg-tO8h3rrfJpqmu8yh2V-xBF9tNWZ_Xw_07GHgZvjW5FkkLI0FRjmegWGISptAW9D6nLILZN8wKVEjFYYMQHaAECKE17w_xXDfb:1pDoLN:H7spsC4SFv95W1dOXjbglvHvyWdPVPFUNnYV6v0vpI0",
+      "expire_date": "2023-01-20T15:09:17.891Z"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$wvmLN8KvNn0OBvlrAsb9Ci$IQD7m/EfK+WUM6dYmK8M8MOmskILr+HL5u9B3fgf7co=",
+      "last_login": "2023-01-06T15:09:17Z",
+      "is_superuser": true,
+      "first_name": "Alexander",
+      "last_name": "Getmanov",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-01-06T15:06:46Z",
+      "username": "admin",
+      "email": "admin@mail.ru",
+      "role": "admin",
+      "bio": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$14xHAIJh5KyZR3QUrTdk4k$ASniR4Gg3dc4hIOyB85yaS3OWGr9MXcC7iqjvMK7TeY=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Анастасия",
+      "last_name": "Косичкина",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T15:40:38Z",
+      "username": "Murlyka",
+      "email": "user@mail.ru",
+      "role": "user",
+      "bio": "«'Я - просто женщина, которой повезло'.\r\nЭта фраза Одри Хепберн немножко и обо мне...»",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Ea17IycnLsvXv8D3WnXMOK$BnhLU3kusqje9Y9QZWFV5rYytI0ebo5x3Z2C9qPTOBM=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Lera",
+      "last_name": "Sergeeva",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T15:43:58.978Z",
+      "username": "Lerry",
+      "email": "user2@mail.ru",
+      "role": "user",
+      "bio": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$0lxAes4sOQpXr7WNQx6wYk$hSC7XpM/wLXYr1kk58aUhxNMIJjSJWKaNq+UqpAZfoQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Виталий",
+      "last_name": "Смирнов",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T15:47:09Z",
+      "username": "Vitaliyyy",
+      "email": "user3@mail.ru",
+      "role": "user",
+      "bio": "«Вполне себе обычный парень, который хочет осуществить свою мечту... и еще я просто нереальный киноман!!!»",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$PEaUxc18xvkcPhaaAZKFkk$pJFpH2iU9LVHMjEnLb3k3zxUjYKaoVdw82Pnid3fEbE=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Blasted",
+      "last_name": "Shadow",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T15:51:51Z",
+      "username": "BlastedShadow",
+      "email": "user4@mail.ru",
+      "role": "user",
+      "bio": "«Благословенье не придёт, пока ребёнок не поймёт, что надо быть как все»",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$k2p09hmwC0mTMCw5rMr2Tq$omySR1rXY7N3HwELfmqOQoXePgFp/nYsJfhYEBrSqXk=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Пётр",
+      "last_name": "Родионов",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T15:54:27.326Z",
+      "username": "Antikinohater",
+      "email": "user5@mail.ru",
+      "role": "user",
+      "bio": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$iqYEQEuqtzxsTrpCiIF2sv$NMHHwPZW/jr79VH+Tu8vfUKQR3cGOcebJ/1RqbLvP+4=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Марина",
+      "last_name": "Колесникова",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T15:58:27.516Z",
+      "username": "Marysya",
+      "email": "user6@mail.ru",
+      "role": "user",
+      "bio": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Nig88PBDWe61NwTToWYyUk$X4rDObI309sLzhyFjgVSTfEtFFxOUCAIpVHauzpwe1E=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Алмас",
+      "last_name": "Ахматов",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T16:00:24.195Z",
+      "username": "bob",
+      "email": "user7@mail.ru",
+      "role": "user",
+      "bio": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$WrRqVOSWY3nwUQHAxdnyeK$nnxFfgUldkVMXypCS9/frO9bx+gy0vyqxL2D/wyRCQM=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Модератор",
+      "last_name": "Рецензий",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T16:06:34Z",
+      "username": "review_admin",
+      "email": "moderator@mail.ru",
+      "role": "moderator",
+      "bio": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$9mBfG8HgfCl2LCJL1D21VR$dvlhwC1Yx80AGcvBf1iXE+F/u+nbDVAiPEu4r54m8/4=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Модератор",
+      "last_name": "Комментариев к отзывам",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-06T16:08:57.946Z",
+      "username": "comment_admin",
+      "email": "moderator2@mail.ru",
+      "role": "moderator",
+      "bio": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "titles.category",
+    "pk": 1,
+    "fields": {
+      "name": "новинки отечественного кино",
+      "slug": "novinki-otechestvennogo-kino"
+    }
+  },
+  {
+    "model": "titles.category",
+    "pk": 2,
+    "fields": {
+      "name": "популярное",
+      "slug": "populyarnoe"
+    }
+  },
+  {
+    "model": "titles.category",
+    "pk": 3,
+    "fields": {
+      "name": "новогоднее настроение",
+      "slug": "novogodnee-nastroenie"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 1,
+    "fields": {
+      "name": "семейные",
+      "slug": "semejnye"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 2,
+    "fields": {
+      "name": "коммедия",
+      "slug": "kommediya"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 3,
+    "fields": {
+      "name": "драмма",
+      "slug": "dramma"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 4,
+    "fields": {
+      "name": "мелодрамма",
+      "slug": "melodramma"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 5,
+    "fields": {
+      "name": "военный",
+      "slug": "voennyj"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 6,
+    "fields": {
+      "name": "история",
+      "slug": "istoriya"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 7,
+    "fields": {
+      "name": "мультфильм",
+      "slug": "multfilm"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 8,
+    "fields": {
+      "name": "мюзикл",
+      "slug": "myuzekl"
+    }
+  },
+  {
+    "model": "titles.genre",
+    "pk": 9,
+    "fields": {
+      "name": "фентази",
+      "slug": "fentazi"
+    }
+  },
+  {
+    "model": "titles.title",
+    "pk": 1,
+    "fields": {
+      "name": "Чебурашка (2022)",
+      "year": 2022,
+      "description": "Иногда, чтобы вернуть солнце и улыбки в мир взрослых, нужен один маленький ушастый герой. Мохнатого непоседливого зверька из далекой апельсиновой страны ждут удивительные приключения в тихом приморском городке, где ему предстоит найти себе имя, друзей и дом.\r\n\r\nПомогать — и мешать! — ему в этом будут нелюдимый старик-садовник, странная тетя-модница и ее капризная внучка, мальчик, который никак не начнет говорить, и его мама, которой приходится несладко, хотя она и варит самый вкусный на свете шоколад. И многие-многие другие, в чью жизнь вместе с ароматом апельсинов вот-вот ворвутся волшебство и приключения.",
+      "category": 1,
+      "genre": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "model": "titles.title",
+    "pk": 2,
+    "fields": {
+      "name": "Форрест Гамп (1994)",
+      "year": 1994,
+      "description": "Сидя на автобусной остановке, Форрест Гамп — не очень умный, но добрый и открытый парень — рассказывает случайным встречным историю своей необыкновенной жизни.\r\n\r\nС самого малолетства парень страдал от заболевания ног, соседские мальчишки дразнили его, но в один прекрасный день Форрест открыл в себе невероятные способности к бегу. Подруга детства Дженни всегда его поддерживала и защищала, но вскоре дороги их разошлись.",
+      "category": 2,
+      "genre": [
+        5,
+        3,
+        6,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "titles.title",
+    "pk": 3,
+    "fields": {
+      "name": "Один дома (1990)",
+      "year": 1990,
+      "description": "Американское семейство отправляется из Чикаго в Европу, но в спешке сборов бестолковые родители забывают дома... одного из своих детей. Юное создание, однако, не теряется и демонстрирует чудеса изобретательности. И когда в дом залезают грабители, им приходится не раз пожалеть о встрече с милым крошкой.",
+      "category": 3,
+      "genre": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "model": "titles.title",
+    "pk": 4,
+    "fields": {
+      "name": "Холодное сердце (2013)",
+      "year": 2013,
+      "description": "Когда сбывается древнее предсказание, и королевство погружается в объятия вечной зимы, трое бесстрашных героев - принцесса Анна, отважный Кристофф и его верный олень Свен - отправляются в горы, чтобы найти сестру Анны, Эльзу, которая может снять со страны леденящее заклятие. По пути их ждет множество увлекательных сюрпризов и захватывающих приключений: встреча с мистическими троллями, знакомство с очаровательным снеговиком по имени Олаф, горные вершины покруче Эвереста и магия в каждой снежинке. Анне и Кристоффу предстоит сплотиться и противостоять могучей стихии, чтобы спасти королевство и тех, кто им дорог.",
+      "category": 3,
+      "genre": [
+        2,
+        4,
+        7,
+        8,
+        1,
+        9
+      ]
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 1,
+    "fields": {
+      "author": 2,
+      "title": 2,
+      "text": "Я воспринимаю этот фильм, как своего рода индикатор людских душ. Задаешь человеку вопрос 'А как тебе 'Форрест...?' и по ответу судишь,что это за человек. Если он говорит, что не видел,- это не беда, дам посмотреть. А если говорит, пожимая плечами: 'Да-а так, фигня про одного придурка...' или что-то в этом роде, то значит гниловатый человек попался. А если человек говорит, что это лучший фильм из тех, что он видел, значит, этот человек дышит тем же воздухом, что и ты, живет на одной с тобой волне, и у него в сердце живет Любовь! - К людям, к жизни, к этому миру. Иногда думаю, как было бы здорово, если бы мы все, повзрослев, не теряли того наивного доброго открытого Фореста, который живет в душе каждого ребенка! И насколько этот мир был бы лучше...\r\n\r\nА момент, который запал в душу: это когда Форест приносит на могилку своей любимой письмо,которое написал их сынишка, и говорит, что он не читал его, потому что чужие письма читать нельзя... Это настолько просто, казалось бы, быть порядочным человеком! И какая это редкость в наше время, когда считается нормой,что любимые люди шарят в мобильниках своих половинок, выискивая чужие смс-ки, когда вскрывается чужая почта. Как это все печально. Наболело, знаете ли...\r\n\r\n10 из 10.",
+      "score": 10,
+      "pub_date": "2023-01-06T15:41:18.390Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 2,
+    "fields": {
+      "author": 3,
+      "title": 2,
+      "text": "Я первый раз смотрела этот фильм на очень плохо показывающем канале и мне приходилось прислушиваться изо всех сил. И я прислушивалась.\r\n\r\nГлядя на Форреста, на его жизнь, ясно видно, как все мы, с нашими каждодневными проблемами, мелочны, как мы размениваем свою жизнь на пустые разговоры, желания и действия, отказываясь, именно неосознанно отказываясь замечать простое и прекрасное.\r\n\r\nВсе отходит куда-то далеко-далеко и остается слабоумный по нашим понятиям человек, живущий в своем мире и который видит и замечает во всем только хорошее.\r\n\r\nЭтот фильм стал моим любимым фильмом, я смотрю его и переношусь туда, ведь так сложно в нашем мире с нашими предрассудками жить так, как Форрест.",
+      "score": 7,
+      "pub_date": "2023-01-06T15:44:40.151Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 3,
+    "fields": {
+      "author": 4,
+      "title": 2,
+      "text": "Невероятно добрый, трагичный, местами смешной, местами страшный. Фильм о неполноценном человеке, с доброй и открытой душой, который просто хочет жить.\r\n\r\nФильм о жестокости, страданиях, о любви и ненависти, о дружбе, и простых человеческих ценностях. Форрест Гамп - показывает всем, что неважно здоровый ты человек или больной, инвалид или нет. Ведь все люди абсолютно равны между собой, надо только бороться. Только не все это понимают. И только Форрест Гамп не обращает внимания на издевательства. Он просто живет и любит, он просто ценит то, что у него есть. И все люди которые его окружают, тоже в конце концов начинают ценить жизнь такой какой она есть.\r\n\r\nИгра Тома Хэнкса восхитительна! Так передать образ слабоумного человека! Величайший актер современности!\r\n\r\nОценки?... зачем, фразой Форреста 'может я и глупый, но я умею любить', была поставлена оценка, о шедевре, который не забудут никогда.",
+      "score": 5,
+      "pub_date": "2023-01-06T15:48:05.990Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 4,
+    "fields": {
+      "author": 4,
+      "title": 1,
+      "text": "Не детский Чебурашка\r\nКонечно же, когда мои дети увидели рекламу данного фильма, то захотели на него пойти. Чебурашка же, любимый детский герой. И вот 2 января мы и пошли в кино.\r\n\r\nЧто я могу сказать?\r\n\r\nМне лично этот фильм показался не совсем детским. Мы пошли в кино с 7леткой и 4леткой. 4летке, которая больше всего рвалась на него, было порой скучновато.\r\n\r\nДа и даже не уверена, что 7летка понял всю проблематику.\r\n\r\nА ведь проблематика поднимается совсем не детская и совсем не простая. Перипетии судьбы человеческой, поступки, которые когда-то казались лучшим решением, а оказались... Не понять таких проблем в 6 лет. В общем, фильм о том, как трудно и сложно быть человеком, как сказал Чебурашка...\r\n\r\nНо для меня - взрослого человека - фильм запал в сердце. Были моменты и поулыбаться, и прослезиться от грусти и умиления.\r\n\r\nОтдельное браво костюмерам Елены Яковлевой! Ее образы просто шикарны, глаз радовался.\r\n\r\nНа удивление (мое личное), неплохо смотрелись и играли Полина Максимова и Сергей Лавыгин. Хотя от них как раз особо ничего не ждала, зная как они обычно играют.\r\n\r\nСергей Гармаш не разочаровал, прекрасно справился с ролью.\r\n\r\nОт Федора Добронравова хотелось побольше получить. Но роль у него тут маленькая и довольно невзрачная.\r\n\r\nИз минусов можно отметить разве что графику фильма. Чебурашка, конечно, получился своеобразным. И сцены, когда люди взаимодействовали с Чебурашкой получились не очень. Не сравнить с тем же Соником, с которым этот фильм сравнивают по стилям.\r\n\r\nПо итогу, крепкое хорошее кино для семейного просмотра с детьми 8+.",
+      "score": 9,
+      "pub_date": "2023-01-06T15:50:23.000Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 5,
+    "fields": {
+      "author": 5,
+      "title": 1,
+      "text": "Радуется сердце от перенасыщенной цветогаммы картинки (если не считать вид коморки Гены изнутри). От маленького города, с его цветами, маленькими забегаловками. Ощущение, будто Иван Лебедев оказался внутри сочного апельсина. Суровый взгляд Гены и остальные крупные планы героев впечатаются в память зрителя.\r\n\r\nВпрочем, как и музыка Ивана Канаева, которая прекрасно дополняет картину. Но, больше душевной настрой создаёт разбирающая душу надвое песня узбекской поп-певицы\r\n\r\nВпечатления: смешанное чувство возникнет у многих, как относится к создателям, которые поправ наше детство, вдруг решили так поступить. Кулаком по столу или разбить окно? Не стоит обвинять людей, старавшихся сделать такой запоздалый на день подарок. Как на день рождения. Но у нас, сейчас пока, новый год наступил. Поэтому отнесусь с уважением к проделанной работе Дьяченко и его команде. Прежде всего нижайший поклон Гармашу.\r\n\r\nА, если что-то не нравится, закидайте апельсинами. Я их люблю. В этом, мы с Чебурашкой похожи.",
+      "score": 7,
+      "pub_date": "2023-01-06T15:53:16.001Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 6,
+    "fields": {
+      "author": 6,
+      "title": 1,
+      "text": "Самое грустное, что кино могло бы получиться хорошим, если бы его не назвали 'Чебурашка'. У меня на глазах незнакомые мне люди с издевкой потоптались по моим любимым персонажам детства. Ну вот зачем это делать? Создайте новую историю с новыми запоминающимися персонажами, хорошей драмой и логикой. Но я понимаю, что проще всего паразитировать на всем готовеньком. Зал, кстати, аплодировал в самом конце. Я такое видел в своей жизни всего раза 4.\r\n\r\nКак поет одна известная группа:\r\n\r\n'Кто-то из нас двоих\r\nТочно сошел с ума!\r\nОсталось лишь определить\r\nВесь мир или я...' - ©\r\n\r\n3 из 10",
+      "score": 3,
+      "pub_date": "2023-01-06T15:55:13.481Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 7,
+    "fields": {
+      "author": 7,
+      "title": 3,
+      "text": "Сколько я помню свои Новый год, столько я и смотрю эту потрясающую рождественскую комедию. Каждый раз, когда смотрю, хотя и знаю уже все шутки наперед, а все равно смешно. Этот фильм никогда на перестанет меня веселить. Этот милый белобрысый парнишка Кевин, такой симпатяга, жаль, что Макколей Калкин не стал супер звездой, но 'Один дома' - культовый фильм.",
+      "score": 10,
+      "pub_date": "2023-01-06T15:58:45.804Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 8,
+    "fields": {
+      "author": 8,
+      "title": 3,
+      "text": "Рождественское чудо\r\nНаверное, я выбрал не очень подходящий момент для очередного пересмотра этой знаменитой комедии, ставшей для американцев рождественским фильмом №1, и, как наша 'Ирония судьбы', одним из 'народных фильмов', которые становятся ежегодным символом праздника, его постоянным атрибутом и необходимой частью. До игнорируемого мною Рождества и до Нового года, на который, к слову сказать, лучше всего и идет 'Один дома', как листик петрушки - к салату Оливье, - еще очень далеко. На улице теплынь, новогодние гирлянды с витрин магазинов (о, чудо!) уже убраны, искусственные ёлки спрятаны в кладовки, а настоящие ждут своей благородной смерти в лесу, на улице все больше коротких юбок и почти не встретишь шапок, варежек и шуб....А я сижу дома с чашкой горячего кофе, забыв про теплый весенний вечер, и чувствую, что вот, еще пара часов, и заведет по телевизору свою новогоднюю шарманку президент, а потом начнут сотрясать воздух пошлостями, глупостями и банальностями отечественные юмористы, воспевая наступивший Новый год.",
+      "score": 8,
+      "pub_date": "2023-01-06T16:00:45.940Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 9,
+    "fields": {
+      "author": 3,
+      "title": 4,
+      "text": "Что это было?\r\nЧестно скажу, посмотрев данный фильм я был восхищен тем, чего Дисней добился в области анимации и графики, мне понравилось звуковое сопровождение (если давать оценку композитору), мне понравился юмор. Но вот сюжет. Я не понимал всё. Я прочитал интервью с режиссёрами фильма об их задумки и заходя в кинотеатр думал, что увижу историю о двух сестрах. Но красивая картинка создает иллюзию, скрывая суть. Я читал отзывы людей, я смотрел видео, посвященные фильму на одном популярном файлообменнике. Меня не покидала одна мысль, но случайно найдя на том же файлообменнике видео американца, где он подверг критическому анализу сюжет, то сомнений не осталось. Предлагаю задуматься над образом Эльзы.",
+      "score": 4,
+      "pub_date": "2023-01-06T16:01:40.471Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 10,
+    "fields": {
+      "author": 6,
+      "title": 4,
+      "text": "Не спи – замерзнешь!\r\nКто не любит «Disney»? «Disney» любят все! Ну или, во всяком случае, большинство. Не одно поколение выросло на их замечательных, ярких и выразительных мультфильмах. Одним из козырей студии являются полнометражные анимационные мюзиклы, которыми они радуют зрителя еще с 1930-х годов. Однако в делах сверхталантливой студии на рубеже XX и XXI веков стал наблюдаться определенный упадок, а зритель стал обращать взор на продукцию новоявленных анимационных студий, таких как «Pixar» и «Dreamworks». С первой диснеевцы уже давно наладили плодотворное сотрудничество, но вот возродить в полной мере именно СВОЮ фирменную полнометражную анимацию на мой взгляд так и не смогли. Наилучшей попыткой вернуться к корням была «Принцесса и лягушка»(2009), имевшая все основные черты характерные для диснеевской классики и отличавшаяся весьма неплохим исполнением, но собравшая не так много как хотелось бы, да и к тому же обидно упустившая награду на главной американской киноцеремонии. В «Disney» не утратили пыла и твердо стояли на том, что уж следующий их полноценный мультмюзикл однозначно и кассу сорвет, и «Оскар» возьмет. Или одно из двух.",
+      "score": 3,
+      "pub_date": "2023-01-06T16:02:21.350Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 11,
+    "fields": {
+      "author": 7,
+      "title": 4,
+      "text": "Настоящие чувства смогут растопить лед...\r\nДавно я ждал наступления этого торжественного момента и вот теперь я с гордостью могу сказать: 'Ребята, это было нереально круто!' Наконец-то, спустя довольно большой промежуток времени, появился на свет мультфильм, заставивший меня сопереживать главным героям от первой и до последней секунды. 'Холодное сердце' - удивительное творение, в котором классические традиции студии 'Walt Disney' сочетаются с новыми приятными добавками. К примеру, 3D-эффект пришелся здесь очень кстати, а кропотливая работа над анимацией принесла колоссальный успех. Кроме того, хотелось бы отметить оригинальных персонажей, которые живут в королевстве Эренделл и близлежащих окрестностях. Все они получились веселыми и смешными, как того и требовала концепция мультика.",
+      "score": 10,
+      "pub_date": "2023-01-06T16:02:49.850Z"
+    }
+  },
+  {
+    "model": "reviews.comment",
+    "pk": 1,
+    "fields": {
+      "author": 3,
+      "review": 11,
+      "text": "Мне не очень понравился. Я поставила 4 и 10.",
+      "pub_date": "2023-01-06T16:12:54.999Z"
+    }
+  },
+  {
+    "model": "reviews.comment",
+    "pk": 2,
+    "fields": {
+      "author": 7,
+      "review": 6,
+      "text": "Несогласна с отзывом! Фильм хорош!",
+      "pub_date": "2023-01-06T16:15:28.514Z"
+    }
+  },
+  {
+    "model": "reviews.comment",
+    "pk": 3,
+    "fields": {
+      "author": 5,
+      "review": 1,
+      "text": "Фильм шикарный но на 10!",
+      "pub_date": "2023-01-06T16:17:17.249Z"
+    }
+  },
+  {
+    "model": "reviews.comment",
+    "pk": 4,
+    "fields": {
+      "author": 2,
+      "review": 1,
+      "text": "BlastedShadow, мне очень понравился)",
+      "pub_date": "2023-01-06T16:18:42.445Z"
+    }
+  }
+]

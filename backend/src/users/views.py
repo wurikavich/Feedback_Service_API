@@ -2,15 +2,14 @@ from django.contrib.auth.tokens import default_token_generator
 from django.shortcuts import get_object_or_404
 from rest_framework import status, viewsets
 from rest_framework.decorators import action, api_view, permission_classes
-from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
 
-from .models import User
-from .serializers import AuthSignupSerializer, UsersSerializer
-from ..base.permissions import AllowAdminOnly
-from ..base.utils import send_confirmation_code
+from src.base.permissions import AllowAdminOnly
+from src.users.models import User
+from src.users.serializers import AuthSignupSerializer, UsersSerializer
+from src.users.utils import send_confirmation_code
 
 
 @api_view(['POST'])
@@ -21,13 +20,7 @@ def signup(request):
     serializer.is_valid(raise_exception=True)
     username = serializer.validated_data.get('username')
     email = serializer.validated_data.get('email')
-    if User.objects.filter(username=username, email=email).exists():
-        user = User.objects.get(username=username, email=email)
-        return send_confirmation_code(request, user, email)
-    user = User.objects.create_user(
-        username=username,
-        email=email,
-        is_active=False)
+    user, _ = User.objects.get_or_create(username=username, email=email)
     return send_confirmation_code(request, user, email)
 
 
@@ -38,10 +31,8 @@ def create_token(request):
     user = get_object_or_404(User, username=request.data.get('username'))
     confirmation_code = request.data.get('confirmation_code')
     if default_token_generator.check_token(user, confirmation_code):
-        user.is_active = True
-        user.save()
-        return Response({'token': str(AccessToken.for_user(user))},
-                        status=status.HTTP_200_OK)
+        token = AccessToken.for_user(user)
+        return Response({'token': str(token)}, status=status.HTTP_200_OK)
     return Response({'error': 'Неверный username или код подтверждения!'},
                     status=status.HTTP_400_BAD_REQUEST)
 
@@ -51,7 +42,6 @@ class UsersViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UsersSerializer
     permission_classes = (AllowAdminOnly,)
-    pagination_class = LimitOffsetPagination
     lookup_field = 'username'
 
     @action(methods=['GET', 'PATCH'],
@@ -68,5 +58,5 @@ class UsersViewSet(viewsets.ModelViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save(role=request.user.role)
             return Response(serializer.data, status=status.HTTP_200_OK)
-        return Response(UsersSerializer(request.user).data,
-                        status=status.HTTP_200_OK)
+        serializer = UsersSerializer(request.user)
+        return Response(serializer.data, status=status.HTTP_200_OK)

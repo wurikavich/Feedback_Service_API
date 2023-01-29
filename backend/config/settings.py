@@ -22,6 +22,7 @@ INSTALLED_APPS = [
 
     'src.users.apps.UsersConfig',
     'src.reviews.apps.ReviewsConfig',
+    'src.titles.apps.TitlesConfig'
 ]
 
 MIDDLEWARE = [
@@ -91,9 +92,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
-    ],
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
@@ -116,11 +114,14 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'users.User'
 MAX_LENGTH_USER_MODEL_FIELD = 150
-MAX_LENGTH_NAME = MAX_LENGTH_USER_EMAIL = 256
-MAX_LENGTH_SLUG = MAX_LENGTH_USER_ROLE = 50
+MAX_LENGTH_USER_EMAIL = MAX_LENGTH_NAME = 254
+MAX_LENGTH_USER_ROLE = MAX_LENGTH_SLUG = 50
+
+FORBIDDEN_NAMES = (
+    'me',
+)
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=10),

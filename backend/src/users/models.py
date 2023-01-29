@@ -3,16 +3,16 @@ from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.validators import UnicodeUsernameValidator
 from django.db import models
 
-from .valiators import validate_prohibited_name
+from src.users.valiators import validate_prohibited_name
 
-USER = "user"
-MODERATOR = "moderator"
-ADMIN = "admin"
+USER = 'user'
+MODERATOR = 'moderator'
+ADMIN = 'admin'
 
 ROLE_CHOICES = (
-    (USER, "Пользователь"),
-    (MODERATOR, "Модератор"),
-    (ADMIN, "Администратор")
+    (USER, 'Пользователь'),
+    (MODERATOR, 'Модератор'),
+    (ADMIN, 'Администратор')
 )
 
 
@@ -22,14 +22,18 @@ class User(AbstractUser):
     username = models.CharField(
         max_length=settings.MAX_LENGTH_USER_MODEL_FIELD,
         unique=True,
+        db_index=True,
         verbose_name="Логин",
         help_text="Придумайте уникальный логин",
-        validators=[UnicodeUsernameValidator(),
-                    validate_prohibited_name]
+        validators=[
+            UnicodeUsernameValidator(),
+            validate_prohibited_name
+        ]
     )
     email = models.EmailField(
         max_length=settings.MAX_LENGTH_USER_EMAIL,
         unique=True,
+        db_index=True,
         verbose_name="Адрес электронной почты",
         help_text="Введите адрес электронной почты"
     )
@@ -51,7 +55,9 @@ class User(AbstractUser):
         verbose_name_plural = 'Пользователи'
 
     def __str__(self):
-        return self.username
+        if self.get_full_name():
+            return self.get_full_name()[:30]
+        return self.username[:30]
 
     @property
     def is_admin(self):
@@ -59,7 +65,7 @@ class User(AbstractUser):
 
     @property
     def is_moderator(self):
-        return self.role == MODERATOR or self.is_staff
+        return self.role == MODERATOR
 
     @property
     def is_user(self):
