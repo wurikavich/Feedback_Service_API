@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'src.users.apps.UsersConfig',
     'src.reviews.apps.ReviewsConfig',
     'src.titles.apps.TitlesConfig'
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
