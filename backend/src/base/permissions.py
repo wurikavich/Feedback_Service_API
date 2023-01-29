@@ -1,7 +1,7 @@
-from rest_framework import permissions
+from rest_framework.permissions import BasePermission, SAFE_METHODS
 
 
-class IsAdminOrReadOnly(permissions.BasePermission):
+class IsAdminOrReadOnly(BasePermission):
     """
     Доступы для моделей: Title, Genre, Category
     Разрешить:
@@ -11,12 +11,18 @@ class IsAdminOrReadOnly(permissions.BasePermission):
 
     def has_permission(self, request, view):
         return (
-            request.method in permissions.SAFE_METHODS
-            or (request.user.is_authenticated and request.user.is_admin)
+            request.method in SAFE_METHODS or
+            (request.user.is_authenticated and request.user.is_admin)
+        )
+
+    def has_object_permission(self, request, view, obj):
+        return (
+            request.method in SAFE_METHODS or
+            (request.user.is_authenticated and request.user.is_admin)
         )
 
 
-class AllowAdminOnly(permissions.BasePermission):
+class AllowAdminOnly(BasePermission):
     """
     Доступы для модели User
     Разрешить:
@@ -27,7 +33,7 @@ class AllowAdminOnly(permissions.BasePermission):
         return request.user.is_authenticated and request.user.is_admin
 
 
-class IsAuthorOrAdminOrReadOnly(permissions.BasePermission):
+class IsAuthorOrAdminOrReadOnly(BasePermission):
     """
     Доступы для моделей: Review, Comment
     Разрешить:
@@ -37,15 +43,12 @@ class IsAuthorOrAdminOrReadOnly(permissions.BasePermission):
     """
 
     def has_permission(self, request, view):
-        return (
-            request.method in permissions.SAFE_METHODS
-            or request.user.is_authenticated
-        )
+        return request.method in SAFE_METHODS or request.user.is_authenticated
 
     def has_object_permission(self, request, view, obj):
         return (
-            request.method in permissions.SAFE_METHODS
-            or obj.author == request.user
-            or request.user.is_moderator
-            or request.user.is_admin
+            request.method in SAFE_METHODS or
+            obj.author == request.user or
+            request.user.is_moderator or
+            request.user.is_admin
         )

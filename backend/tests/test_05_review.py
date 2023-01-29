@@ -186,13 +186,13 @@ class Test05ReviewAPI:
 
         response = admin_client.get(f'/api/v1/titles/{titles[0]["id"]}/')
         data = response.json()
-        assert data.get('rating') == 4, (
+        assert data.get('rating') == '4.00', (
             'Проверьте, что при GET запросе `/api/v1/titles/{title_id}/` '
             'с отзывами возвращается правильно значение `rating`'
         )
         response = admin_client.get(f'/api/v1/titles/{titles[1]["id"]}/')
         data = response.json()
-        assert data.get('rating') == 3, (
+        assert data.get('rating') == '3.00', (
             'Проверьте, что при GET запросе `/api/v1/titles/{title_id}/` '
             'с отзывами возвращается правильно значение `rating`'
         )
@@ -283,7 +283,7 @@ class Test05ReviewAPI:
         )
         response = admin_client.get(f'/api/v1/titles/{titles[0]["id"]}/')
         data = response.json()
-        assert data.get('rating') == 7, (
+        assert data.get('rating') == '7.00', (
             'Проверьте, что при GET запросе `/api/v1/titles/{title_id}/` '
             'с отзывами возвращается правильно значение `rating`'
         )
