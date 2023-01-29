@@ -146,16 +146,16 @@ POST - 'http://localhost/api/v1/auth/signup/'
 ```
 ```yaml
 {
-    "email": "new_user@mail.ru",
-    "username": "new_user"
+  "email": "new_user@mail.ru",
+  "username": "new_user"
 }
 ```
 
 #### Ответ
 ```yaml
 {
-    "email": "new_user@mail.ru",
-    "username": "new_user"
+  "email": "new_user@mail.ru",
+  "username": "new_user"
 }
 ```
 
@@ -193,15 +193,15 @@ POST - 'http://localhost/api/v1/auth/token/'
 ```
 ```yaml
 {
-    "username": "new_user",
-    "confirmation_code": "value_confirmation_code"
+  "username": "new_user",
+  "confirmation_code": "value_confirmation_code"
 }
 ```
 
 #### Ответ
 ```yaml
 {
-    "token": "jwt_access_token"
+  "token": "jwt_access_token"
 }
 ```
 
@@ -215,12 +215,12 @@ header 'Authorization: Bearer "jwt_access_token"'
 #### Ответ
 ```yaml
 {
-    "username": "new_user",
-    "email": "new_user@mail.ru",
-    "first_name": "",
-    "last_name": "",
-    "bio": null,
-    "role": "user"
+  "username": "new_user",
+  "email": "new_user@mail.ru",
+  "first_name": "",
+  "last_name": "",
+  "bio": null,
+  "role": "user"
 }
 ```
 
