@@ -48,8 +48,10 @@ class Review(models.Model):
         ]
 
     def __str__(self):
-        return (f'"{self.author}" добавил отзыв на "{self.title}"'
-                f' с оценкой "{self.score}".')
+        return (
+            f'"{self.author}" добавил отзыв на "{self.title} '
+            f'с оценкой "{self.score}".'
+        )
 
 
 class Comment(models.Model):

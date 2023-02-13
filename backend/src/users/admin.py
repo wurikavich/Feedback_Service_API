@@ -8,6 +8,7 @@ from src.users.models import User
 @admin.register(User)
 class UserAdmin(UserAdmin):
     """Управление пользователями."""
+
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
         (_('Personal info'), {'fields': ('role', 'email', 'first_name',

@@ -3,18 +3,25 @@ from rest_framework import viewsets
 
 from src.base.permissions import IsAdminOrReadOnly
 from src.titles.filters import TitleFilter
-from src.titles.mixins import CreateListDestroyMixins
+from src.titles.mixins import CreateListDestroyMixin
 from src.titles.models import Category, Genre, Title
 from src.titles.serializers import (
-    CategorySerializer, GenreSerializer,
-    TitleCreateSerializer, TitleReadSerializer)
+    CategorySerializer,
+    GenreSerializer,
+    TitleCreateSerializer,
+    TitleReadSerializer,
+)
 
 
 class TitleViewSet(viewsets.ModelViewSet):
     """CRUD произведений."""
-    queryset = Title.objects.all().annotate(
-        rating=Avg('reviews__score')
-    ).select_related('category').prefetch_related('genre')
+
+    queryset = (
+        Title.objects.all()
+        .annotate(rating=Avg('reviews__score'))
+        .select_related('category')
+        .prefetch_related('genre')
+    )
     permission_classes = (IsAdminOrReadOnly,)
     filterset_class = TitleFilter
 
@@ -24,13 +31,15 @@ class TitleViewSet(viewsets.ModelViewSet):
         return TitleReadSerializer
 
 
-class GenreViewSet(CreateListDestroyMixins):
+class GenreViewSet(CreateListDestroyMixin):
     """CRUD жанров."""
+
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
 
 
-class CategoryViewSet(CreateListDestroyMixins):
+class CategoryViewSet(CreateListDestroyMixin):
     """CRUD категорий."""
+
     queryset = Category.objects.all()
     serializer_class = CategorySerializer

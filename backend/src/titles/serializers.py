@@ -26,7 +26,8 @@ class TitleReadSerializer(serializers.ModelSerializer):
     genre = GenreSerializer(read_only=True, many=True)
     category = CategorySerializer(read_only=True)
     rating = serializers.DecimalField(
-        read_only=True, max_digits=4, decimal_places=2)
+        read_only=True, max_digits=4, decimal_places=2
+    )
 
     class Meta:
         model = Title
@@ -51,12 +52,11 @@ class TitleCreateSerializer(TitleReadSerializer):
     """CRUD произведений."""
 
     genre = serializers.SlugRelatedField(
-        queryset=Genre.objects.all(),
-        slug_field='slug',
-        many=True)
+        queryset=Genre.objects.all(), slug_field='slug', many=True
+    )
     category = serializers.SlugRelatedField(
-        queryset=Category.objects.all(),
-        slug_field='slug')
+        queryset=Category.objects.all(), slug_field='slug'
+    )
 
     def validate(self, data):
         request = self.context['request']

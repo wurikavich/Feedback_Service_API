@@ -6,6 +6,7 @@ from src.titles.models import Category, Genre, Title
 
 class ReviewInline(admin.TabularInline):
     """Вывод отзывов к произведению."""
+
     model = Review
     extra = 0
     readonly_fields = ('author',)
@@ -14,6 +15,7 @@ class ReviewInline(admin.TabularInline):
 @admin.register(Title)
 class TitleAdmin(admin.ModelAdmin):
     """Произведения."""
+
     list_display = ('id', 'name', 'year', 'category')
     list_display_links = ('name',)
     list_filter = ('year', 'category', 'genre')
@@ -23,10 +25,10 @@ class TitleAdmin(admin.ModelAdmin):
     save_on_top = True
 
 
-@admin.register(Genre)
-@admin.register(Category)
+@admin.register(Category, Genre)
 class GenreCategoryBaseAdmin(admin.ModelAdmin):
     """Базовая панель для моделей: Category, Genre."""
+
     list_display = ('id', 'name', 'slug')
     list_display_links = ('name',)
     list_filter = ('name',)

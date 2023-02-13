@@ -86,7 +86,7 @@ class Title(models.Model):
     genre = models.ManyToManyField(
         Genre,
         symmetrical=False,
-        related_name='+',
+        related_name="+",
         verbose_name="Жанры",
         help_text="Выберите жанры"
     )
@@ -94,7 +94,7 @@ class Title(models.Model):
         Category,
         on_delete=models.SET_NULL,
         null=True,
-        related_name='+',
+        related_name="+",
         verbose_name="Категория",
         help_text="Выберите категорию"
     )

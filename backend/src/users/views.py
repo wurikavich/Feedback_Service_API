@@ -8,7 +8,7 @@ from rest_framework_simplejwt.tokens import AccessToken
 
 from src.base.permissions import AllowAdminOnly
 from src.users.models import User
-from src.users.serializers import AuthSignupSerializer, UsersSerializer
+from src.users.serializers import AuthSignupSerializer, UserSerializer
 from src.users.utils import send_confirmation_code
 
 
@@ -33,14 +33,17 @@ def create_token(request):
     if default_token_generator.check_token(user, confirmation_code):
         token = AccessToken.for_user(user)
         return Response({'token': str(token)}, status=status.HTTP_200_OK)
-    return Response({'error': 'Неверный username или код подтверждения!'},
-                    status=status.HTTP_400_BAD_REQUEST)
+    return Response(
+        {'error': 'Неверный username или код подтверждения!'},
+        status=status.HTTP_400_BAD_REQUEST
+    )
 
 
-class UsersViewSet(viewsets.ModelViewSet):
+class UserViewSet(viewsets.ModelViewSet):
     """CRUD пользователей."""
+
     queryset = User.objects.all()
-    serializer_class = UsersSerializer
+    serializer_class = UserSerializer
     permission_classes = (AllowAdminOnly,)
     lookup_field = 'username'
 
@@ -51,12 +54,13 @@ class UsersViewSet(viewsets.ModelViewSet):
     def get_patch_profile(self, request):
         """Получение/Изменение данных учетной записи пользователя."""
         if request.method == 'PATCH':
-            serializer = UsersSerializer(
+            serializer = UserSerializer(
                 request.user,
                 data=request.data,
-                partial=True)
+                partial=True
+            )
             serializer.is_valid(raise_exception=True)
             serializer.save(role=request.user.role)
             return Response(serializer.data, status=status.HTTP_200_OK)
-        serializer = UsersSerializer(request.user)
+        serializer = UserSerializer(request.user)
         return Response(serializer.data, status=status.HTTP_200_OK)

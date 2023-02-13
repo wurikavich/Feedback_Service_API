@@ -9,8 +9,8 @@ class ReviewSerializer(serializers.ModelSerializer):
     """CRUD отзывов к произведениям."""
 
     author = serializers.SlugRelatedField(
-        slug_field='username',
-        read_only=True)
+        slug_field='username', read_only=True
+    )
 
     class Meta:
         model = Review
@@ -20,12 +20,12 @@ class ReviewSerializer(serializers.ModelSerializer):
         request = self.context['request']
         if request.method == 'POST':
             title = get_object_or_404(
-                Title,
-                pk=self.context['view'].kwargs.get('title_id')
+                Title, pk=self.context['view'].kwargs.get('title_id')
             )
             if request.user.reviews.filter(title=title).exists():
                 raise serializers.ValidationError(
-                    'Вы уже написали отзыв к этому произведению!')
+                    'Вы уже написали отзыв к этому произведению!'
+                )
             return data
         return data
 
@@ -34,8 +34,8 @@ class CommentSerializer(serializers.ModelSerializer):
     """CRUD комментариев к отзывам."""
 
     author = serializers.SlugRelatedField(
-        slug_field='username',
-        read_only=True)
+        slug_field='username', read_only=True
+    )
 
     class Meta:
         model = Comment

@@ -4,7 +4,7 @@ from rest_framework import serializers
 from src.users.models import User
 
 
-class UsersSerializer(serializers.ModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
     """Вывод информации о пользователях."""
 
     class Meta:
@@ -34,13 +34,16 @@ class AuthSignupSerializer(serializers.ModelSerializer):
         username = data.get('username')
         if username.lower() in settings.FORBIDDEN_NAMES:
             raise serializers.ValidationError(
-                f"Использовать '{username}' запрещено!")
+                f"Использовать '{username}' запрещено!"
+            )
         if User.objects.filter(username=username, email=email).exists():
             return data
         if User.objects.filter(username=username).exists():
             raise serializers.ValidationError(
-                f"Пользователь с именем '{username}' уже существует!")
+                f"Пользователь с именем '{username}' уже существует!"
+            )
         if User.objects.filter(email=email).exists():
             raise serializers.ValidationError(
-                f"Пользователь с почтой '{email}' уже существует!")
+                f"Пользователь с почтой '{email}' уже существует!"
+            )
         return data

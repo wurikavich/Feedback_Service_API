@@ -9,6 +9,7 @@ from src.titles.models import Title
 
 class ReviewViewSet(viewsets.ModelViewSet):
     """CRUD отзывов к произведениям."""
+
     serializer_class = ReviewSerializer
     permission_classes = (IsAuthorOrAdminOrReadOnly,)
 
@@ -16,17 +17,17 @@ class ReviewViewSet(viewsets.ModelViewSet):
         return get_object_or_404(Title, id=self.kwargs.get('title_id'))
 
     def get_queryset(self):
-        return self.get_title_or_404().reviews.all().select_related('author')
+        return self.get_title_or_404().reviews.select_related('author')
 
     def perform_create(self, serializer):
         serializer.save(
-            author=self.request.user,
-            title=self.get_title_or_404()
+            author=self.request.user, title=self.get_title_or_404()
         )
 
 
 class CommentViewSet(viewsets.ModelViewSet):
     """CRUD комментариев к отзывам."""
+
     serializer_class = CommentSerializer
     permission_classes = (IsAuthorOrAdminOrReadOnly,)
 
@@ -38,10 +39,9 @@ class CommentViewSet(viewsets.ModelViewSet):
         )
 
     def get_queryset(self):
-        return self.get_review_or_404().comments.all().select_related('author')
+        return self.get_review_or_404().comments.select_related('author')
 
     def perform_create(self, serializer):
         serializer.save(
-            author=self.request.user,
-            review=self.get_review_or_404()
+            author=self.request.user, review=self.get_review_or_404()
         )

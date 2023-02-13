@@ -140,7 +140,6 @@
 ## Примеры запросов на эндпоинты
 ### Регистрация нового пользователя:
 #### Запрос
-
 ```bash
 POST - 'http://localhost/api/v1/auth/signup/'
 ```
@@ -227,7 +226,7 @@ header 'Authorization: Bearer "jwt_access_token"'
 ## Стек технологий
 #### Backend:
 - Python 3.10
-- Django 3.2.16
+- Django 3.2.17
 - Django REST Framework 3.14.0
 
 #### Инфраструктура для запуска:
